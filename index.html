@@ -8,35 +8,47 @@
 	<style type="text/css">
 		
 		#face1{
-			background-image:url(face1.png);
+			background-image:url(shineysmiley.png);
+			transiton:2s;
+		}
+
+		#face1:hover{
+			background-image:url(drawnSmiley.png);
+			transition:2s;
 		}
 
 		.face{
-			width: 500px;
-			height: 500px;
-			background-size: contain;
+			display:inline-block;
+			width: 400px;
+			height: 400px;
+			background-size: cover;
 			background-repeat: no-repeat;
+			transition:2s;
+		}
+
+		#face2:hover{ 
+		 background-image:url(smiling.png);
+		 transition: 2s;
 		}
 
 		#face2{ 
-		 background-image:url(face2.png);
+		background-image:url(halo.png);
+		transition:2s }
+
+		body{
+			margin:0px;
+			background-color:lightseagreen;
 		}
-		.face{ 
-		width:500px;
-		height:500px; 
-		background-size:contain;
-		background-repeat:no-repeat; 
-	}
+		
 
 	</style>
 </head>
 <body>
 
-	This is my website.
+	<center>
+		<h1>This is my website 🩷</h1>
 
-		🩷
-
-		Here are my 
+		 
 
 		<a href="projects.html">
 			<div id="face1" class="face">
@@ -47,12 +59,14 @@
 		</a>
 
 
-		Here is my <a href="journal.html">journal
+		 <a href="journal.html">
 
 		<div id="face2"class="face">
 			
 		</div>
 
-</a> 
+		</a> 
+
+		</center>
 </body>
 </html>
